@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Enter Your Details Here</h1>
+    <form action="">
+      <label for="first">First Name : </label>
+       <input id="first" type="text" name="firstname"><br><br>
+      <label for="last">Last Name : </label>
+       <input id="last" type="text" name="lastname"><br><br>
+       <label for="dob">Date Of Birth</label>
+       <input id="dob" type="date" name="dob"><br><br>
+       <label for="email">Email</label>
+       <input id="email" type="email" name="email"><br><br>
+       <label for="password">Password</label>
+       <input id="password" type="password" name="password"><br><br>
+        <label for="degree">Graduation</label>
+        <select name="degree" id="degree">
+            <option value="BE">BE</option>
+            <option value="B-tech">B-tech</option>
+            <option value="BCA">BCA</option>
+            <option value="Bcom">B-com</option>
+        </select>
+        <br><br>
+        <label for="percentage">Percentage in Graduation</label>
+        <input type="number" name="percent" id="percentage">
+        <br><br>
+        <h4>Experience :</h4>
+        <input type="radio" name="work" value="fresher" id="fresher">
+        <label for="fresher">Fresher</label> &nbsp;&nbsp;
+        <input type="radio" name="work" value="experience" id="experience">
+        <label for="experience">Experienced</label>
+
+       <h4>Choose your favorite Web Field:</h4>
+       <input type="radio" id="frontend" name="fav_language"  value="frontend" >
+       <label for="frontend">Front-end</label> &nbsp;&nbsp;
+       <input type="radio" id="backend" name="fav_language" value="backend">
+       <label for="backend">Back-end</label><br>
+     
+     <h4>Skills</h4>
+     <input type="checkbox" id="lang1" name="lang1" >
+     <label for="lang1">C/C++</label><br>
+     <input type="checkbox" id="lang2" name="lang2" >
+     <label for="lang2"> CORE JAVA</label><br>
+     <input type="checkbox" id="lang3" name="lang3">
+     <label for="lang3">MYSQL</label><br>
+     <input type="checkbox" id="lang4" name="lang4" >
+     <label for="lang4">HTML</label><br>
+     <input type="checkbox" id="lang5" name="lang5">
+     <label for="lang5">CSS</label><br>
+     <input type="checkbox" id="lang6" name="lang6" >
+     <label for="lang6">JAVASCRIPT</label><br>
+     <input type="checkbox" id="lang7" name="lang7" >
+     <label for="lang7">REACT-JS</label><br>
+     <input type="checkbox" id="lang8" name="lang8" >
+     <label for="lang8">ANGULAR</label><br><br>
+  
+       <label for="role">Choose a Role</label>
+       <select name="role" id="role">
+        <option value="frontend">Front-end Developer</option>
+        <option value="backend">Back-end Developer</option>
+        <option value="Dotnet">Dotnet Developer</option>
+        <option value="python">Python Developer</option>
+  
+       </select>
+       <br><br>
+       <label for="about">Tell us about yourself</label>
+       <textarea name="aboutyourself" id="about" cols="30" rows="10"></textarea>
+       <br><br>
+        <input type="reset">
+        <br><br>
+        <input type="submit">
+
+
+    </form>
+</body>
+</html>
